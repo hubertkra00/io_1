@@ -12,3 +12,14 @@ wysokosc = 89
 wynik = pole_trapezu(podstawa_a, podstawa_b, wysokosc)
 print("Pole trapezu wynosi:", wynik)
 
+def oblicz_pole_trojkata(a, h):
+    return a * h / 2
+
+# Dane trójkąta
+bok_a = 8
+wysokosc = 5
+
+# Obliczanie pola trójkąta i wyświetlanie wyniku
+print("pole trójkąta wynosi:", oblicz_pole_trojkata(bok_a, wysokosc))
+
+
